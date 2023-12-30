@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="calculator">
+                <div class="display">
+                    <span id="val"></span>
+                    <span id="res">= 0</span>
+                </div>
+                <div class="keys">
+                    <div class="numbers">
+                        <div class="keybox" id="kACb"><div class="key" id="kAC" onclick="clicked(this)">AC</div></div>
+                        <div class="keybox" id="kDELb"><div class="key" id="kDEL" onclick="clicked(this)">DEL</div></div>
+                        <div class="keybox" id="kdivb"><div class="key" id="kdiv" onclick="clicked(this)">/</div></div>
+                        <div class="keybox" id="k7b"><div class="key" id="k7" onclick="clicked(this)">7</div></div>
+                        <div class="keybox" id="k8b"><div class="key" id="k8" onclick="clicked(this)">8</div></div>
+                        <div class="keybox" id="k9b"><div class="key" id="k9" onclick="clicked(this)">9</div></div>
+                        <div class="keybox" id="k4b"><div class="key" id="k4" onclick="clicked(this)">4</div></div>
+                        <div class="keybox" id="k5b"><div class="key" id="k5" onclick="clicked(this)">5</div></div>
+                        <div class="keybox" id="k6b"><div class="key" id="k6" onclick="clicked(this)">6</div></div>
+                        <div class="keybox" id="k1b"><div class="key" id="k1" onclick="clicked(this)">1</div></div>
+                        <div class="keybox" id="k2b"><div class="key" id="k2" onclick="clicked(this)">2</div></div>
+                        <div class="keybox" id="k3b"><div class="key" id="k3" onclick="clicked(this)">3</div></div>
+                        <div class="keybox" id="k0b"><div class="key" id="k0" onclick="clicked(this)">0</div></div>
+                        <div class="keybox" id="kdecb"><div class="key" id="kdec" onclick="clicked(this)">.</div></div>
+                    </div>
+                    <div class="operations">
+                        <div class="keybox" id="kmulb"><div class="key" id="kmul" onclick="clicked(this)">*</div></div>
+                        <div class="keybox" id="ksubb"><div class="key" id="ksub" onclick="clicked(this)">-</div></div>
+                        <div class="keybox" id="kaddb"><div class="key" id="kadd" onclick="clicked(this)">+</div></div>
+                        <div class="keybox" id="kequalb"><div class="key" id="kequal" onclick="clicked(this)">=</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
